@@ -9,7 +9,7 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+        <TargetFrameworks>net6.0;net7.0;netstandard2.0</TargetFrameworks>
         <LangVersion>latest</LangVersion>
         <Deterministic>true</Deterministic>
         <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
@@ -40,5 +40,6 @@
 
         <!-- Custom steamworks, based on the chippy branch of Facepunch.Steamworks -->
         <PackageReference Include="goaaats.Steamworks" Version="2.3.4" />
+        <PackageReference Update="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.0" />
     </ItemGroup>
 </Project>
